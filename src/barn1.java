@@ -28,8 +28,8 @@ class barn1 {
 		out.close();
 	}
 
-	public static int calculateMinimumNumberOfBlockedStalls(int maxNumBoards, int numStalls,
-			ArrayList<Integer> occupiedStallsIndexes) {
+	public static int calculateMinimumNumberOfBlockedStalls(
+			int maxNumBoards, int numStalls, ArrayList<Integer> occupiedStallsIndexes) {
 
 		// we want the indexes to be ordered
 		Collections.sort(occupiedStallsIndexes);
