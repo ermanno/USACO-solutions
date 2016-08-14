@@ -28,7 +28,7 @@ class barn1 {
 		out.close();
 	}
 
-	public static int calculateMinimumNumberOfBlockedStalls(int maxNumBoards, 
+	public static int calculateMinimumNumberOfBlockedStalls(int maxNumBoards,
 															int numStalls,
 															ArrayList<Integer> occupiedStallsIndexes) {
 
